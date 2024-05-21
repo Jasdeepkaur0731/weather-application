@@ -1,0 +1,50 @@
+/* src/App.css */
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #fcfcfd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(17, 16, 16);
+  background-image: url('./background.jpg'); /* Use the correct path */
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+h1 {
+  font-family: 'Arial', sans-serif;
+  margin-bottom: 20px;
+  z-index: 1;
+}
+
+.weather-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  z-index: 1;
+}
+
+.info-box {
+  background: rgba(255, 255, 255, 0.8); /* White background with opacity */
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  font-family: 'Courier New', monospace;
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
